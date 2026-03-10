@@ -1,5 +1,7 @@
 # 4640-in-class-wk10
 
+**Group**: Jaskirat and Chelsie
+
 ## 1. Create the SSH key
 ```
 ssh-keygen -t ed25519 -f ~/.ssh/wk9 -C "4640 week 9 lab key"
