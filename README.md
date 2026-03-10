@@ -11,9 +11,10 @@
 ansible-inventory --graph all
 ```
 
-## 5. Create Roles
+## 5. Run ansible
 ```
-ansible-galaxy init --init-path roles redis-server
-ansible-galaxy init --init-path roles frontend-server
+ansible-playbook playbook.yml --syntax-check
+ansible-playbook playbook.yml
 ```
 
+![](attachments/screenshot-wk10.png)
