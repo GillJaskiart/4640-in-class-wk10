@@ -1,0 +1,5 @@
+#SPDX-License-Identifier: MIT-0
+---
+# vars file for server_role_redis_server
+
+ansible_user: "{{ 'rocky' if 'server_role_redis_server' in group_names else 'admin' }}"
